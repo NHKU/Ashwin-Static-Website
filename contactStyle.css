@@ -1,0 +1,136 @@
+body {
+    font-family: "Roboto" sans-serif;
+}
+
+/* NAVBAR */
+
+header{
+    /* background-image:linear-gradient(180deg ,#c4b6fd,#93acfc); */
+     background-image:linear-gradient(180deg ,#97dcf1,#7892e6);
+     padding-bottom: 30px;
+}
+
+/* NAV LINKS */
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    scale: 1.05;
+    color: #0a58ca;
+}
+
+.contact-btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+
+
+
+
+.contact-section {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    margin: 50px 50px;  
+}
+
+.contact-info {
+    color: white;
+    text-align: center;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #5facc4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+}
+
+.contact-form .btn {
+    background-color: white;
+    color: #673ab7;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.contact-form .btn:hover{
+    background-color: #0a58ca;
+    color: #fff;
+}
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 16px;
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 6px;
+}
+
+/* FOOTER */
+
+.btn-1 {
+    background-color: white;
+    border-color: #0a58ca;
+    border-radius: 12px;
+}
+
+.btn-1:hover {
+    scale: 1.05;
+}
+
+ion-icon {
+    font-size: 2rem;
+    color: black;
+}
+
+ion-icon:hover {
+    color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter:blur(10px) ;
+    }
+}
+
+@media(max-width:991px) {
+    .contact-section {
+        padding: 10px;
+        margin: 25px 25px;
+    }
+
+    .contact-form {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,139 @@
+body {
+    font-family: "Roboto" sans-serif;
+}
+
+/* NAVBAR */
+
+header{
+    /* background-image:linear-gradient(180deg ,#c4b6fd,#93acfc); */
+     background-image:linear-gradient(180deg ,#97dcf1,#7892e6);
+}
+
+/* NAV LINKS */
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    scale: 1.05;
+    color: #0a58ca;
+}
+
+.contact-btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+/* HOME PAGE TEXT */
+
+.navbar-brand,
+.text-primery {
+    color: #0a58ca !important;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #0a58ca;
+}
+
+.btn-primery {
+    background-color: #0a58ca;
+    border: none; 
+}
+
+.btn-primery:hover {
+    background-color: #257dfd;
+}
+
+.content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.text-primery {
+    color: #257dfd;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Icons */
+
+.icons {
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 16px;
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 6px;
+}
+
+/* Cards */
+
+.card {
+    scale: 0.95;
+}
+
+.card:hover {
+    scale: 1.05;
+}
+
+.blue-bg {
+    background-color: #0a58ca;
+    color: #fff;
+}
+
+/* How it works */
+
+.accordion-button {
+    font-weight: 500;
+}
+
+/* FOOTER */
+
+.btn-1 {
+    background-color: white;
+    border-color: #0a58ca;
+    border-radius: 12px;
+}
+
+.btn-1:hover {
+    scale: 1.05;
+}
+
+ion-icon {
+    font-size: 2rem;
+    color: black;
+}
+
+ion-icon:hover {
+    color: #fff;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter:blur(10px) ;
+    }
+}
+
+@media(max-width: 768px) {
+    .content h1{
+        font-size: 2rem;
+    }
+    .content p {
+        font-size: 1rem;
+    }
+
+}

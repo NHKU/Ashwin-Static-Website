@@ -1,0 +1,126 @@
+body {
+    font-family: "Roboto" sans-serif;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+/* NAVBAR */
+
+header{
+    /* background-image:linear-gradient(180deg ,#c4b6fd,#93acfc); */
+    background-image:linear-gradient(180deg ,#97dcf1,#7892e6);
+}
+
+/* NAV LINKS */
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    scale: 1.05;
+    color: #0a58ca;
+}
+
+.contact-btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+/* WHY CHOOSE US */
+
+.card {
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: aliceblue;
+}
+
+.card-body {
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.icon {
+    font-size: 35px;
+    color: #007bff;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* Process */
+
+.process {
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* .content-section {
+    display: flex;
+    align-items: flex-start;
+} */
+
+.content-section img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.steps {
+    flex: 1;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.step p {
+    color: #000;
+}
+
+.icon-1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-right: 15px;
+    
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter:blur(10px) ;
+    }
+}
+
+
